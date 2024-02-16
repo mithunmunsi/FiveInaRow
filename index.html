@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Five in a row</title>
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Task: Five in a row!</h1>
+    <h2>Current turn: <span id="turn">X</span></h2>
+
+    <div id="board"></div>
+
+    <div class="overlay hidden">
+      <h1 class="" id="winnerAnnouncement">
+        <span class="material-symbols-outlined star"> star </span> Winner is:
+        <span id="winner"></span>
+        <span class="material-symbols-outlined star"> star </span>
+      </h1>
+      <button class="" id="newgame">Start Again</button>
+    </div>
+  </body>
+</html>
